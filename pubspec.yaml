@@ -1,0 +1,54 @@
+name: book_library_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  provider: ^5.0.0 # Or riverpod
+  image_picker: ^1.0.0
+  file_picker: ^5.0.0
+  flutter_rating_bar: ^4.0.0
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - assets/images/book1.jpg
+    - assets/images/book2.jpg
+    - assets/images/book3.jpg
+    - assets/images/book4.jpg
+    - assets/images/book5.jpg
+    - assets/images/book6.jpg
+    - assets/images/book7.jpg
+    - assets/images/book8.jpg
+    - assets/images/book9.jpg
+    - assets/images/book10.jpg
+    - assets/images/book11.jpg
+    - assets/images/book12.jpg
+    - assets/images/book13.jpg
+    - assets/images/book14.jpg
+    - assets/images/book15.jpg
